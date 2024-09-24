@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password-Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Images/lock.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">
+        <h2>Password Generator</h2>
+        <div class="generator">
+          <form action="">
+            <input type="text" class="pass" placeholder="Your Password Is..." />
+            <label class="copy">Copy</label>
+          </form>
+        </div>
+        <div class="password-info">
+          <div class="length">
+            <label for="">Password Length (5-20)</label>
+            <select name="" id="">
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+            </select>
+          </div>
+          <div class="num">
+            <label for="">Include Numbers</label>
+            <input type="checkbox" name="" id="" />
+          </div>
+          <div class="sym">
+            <label for="">Include Symbols</label>
+            <input type="checkbox" name="" id="" />
+          </div>
+        </div>
+        <button>Generate</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
